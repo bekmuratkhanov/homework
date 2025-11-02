@@ -106,6 +106,105 @@ text{
   padding: 30px;
 }
 
+@media (max-width:1024px){
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 15px 25px;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .block{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .block.reverse{
+        flex-direction: column;
+    }
+
+    .block .text
+    .block .image{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .people{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .person{
+        width: 45%;
+    }
+
+    .gallery{
+        flex-wrap: wrap;
+    }
+
+    .gallery img{
+        width: 50%;
+    }
+    }
+
+    @media (max-width: 768px){
+        .header{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .menu{
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .hero{
+            padding: 30px 10px;
+        }
+
+        .block,
+        .block.reverse{
+            flex-direction: column;
+        }
+
+        .block .text{
+            padding: 20px;
+        }
+
+        .block .image{
+            width: 100%;
+        }
+
+        .people{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .person{
+            width: 80%;
+        }
+
+        .gallery{
+            flex-direction: column;
+        }
+
+        .gallery img{
+            width: 100%;
+        }
+
+        .footer{
+            padding:20px
+        }
+    }
+
+
   </style>
 </head>
 <body>
